@@ -1,0 +1,200 @@
+[
+  {
+    "type": "archive",
+    "url": "https://github.com/HaxeFoundation/haxe-debian/archive/upstream/4.1.1.tar.gz",
+    "md5": "35807bf2200bd80ab45132bf2bbfb40b",
+    "dest": "build/packages/haxe-4.1.1"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/camlp5/camlp5/archive/refs/tags/8.02.01.tar.gz",
+    "sha512": "b600cb4891f825bce5af72c1e26e6b09e51f1e4bd4eea5333af9aaecde0857e949428c1b30c64bae030042691e97bdde6daf1d95fe1927ea478b7f5dea872ee5",
+    "dest": "build/packages/camlp5-8.02.01"
+  },
+  {
+    "type": "archive",
+    "url": "https://erratique.ch/software/bos/releases/bos-0.2.1.tbz",
+    "sha512": "8daeb8a4c2dd1f2460f6274ada19f4f1b6ebe875ff83a938c93418ce0e6bdb74b8afc5c9a7d410c1c9df2dad030e4fa276b6ed2da580639484e8b5bc92610b1d",
+    "dest": "build/packages/bos-0.2.1"
+  },
+  {
+    "type": "archive",
+    "url": "https://erratique.ch/software/astring/releases/astring-0.8.5.tbz",
+    "md5": "148907c24157d1df43bec89b58b3ec8",
+    "dest": "build/packages/astring-0.8.5"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml/ocamlbuild/archive/refs/tags/0.14.2.tar.gz",
+    "sha512": "f568bf10431a1f701e8bd7554dc662400a0d978411038bbad93d44dceab02874490a8a5886a9b44e017347e7949997f13f5c3752f74e1eb5e273d2beb19a75fd",
+    "dest": "build/packages/ocamlbuild-0.14.2"
+  },
+  {
+    "type": "archive",
+    "url": "http://download.camlcity.org/download/findlib-1.9.6.tar.gz",
+    "sha512": "cfaf1872d6ccda548f07d32cc6b90c3aafe136d2aa6539e03143702171ee0199add55269bba894c77115535dc46a5835901a5d7c75768999e72db503bfd83027",
+    "dest": "build/packages/ocamlfind-1.9.6"
+  },
+  {
+    "type": "archive",
+    "url": "https://erratique.ch/software/topkg/releases/topkg-1.0.7.tbz",
+    "sha512": "09e59f1759bf4db8471f02d0aefd8db602b44932a291c05c312b1423796e7a15d1598d3c62a0cec7f083eff8e410fac09363533dc4bd2120914bb9664efea535",
+    "dest": "build/packages/topkg-1.0.7"
+  },
+  {
+    "type": "archive",
+    "url": "https://erratique.ch/software/fmt/releases/fmt-0.9.0.tbz",
+    "sha512": "66cf4b8bb92232a091dfda5e94d1c178486a358cdc34b1eec516d48ea5acb6209c0dfcb416f0c516c50ddbddb3c94549a45e4a6d5c5fd1c81d3374dec823a83b",
+    "dest": "build/packages/fmt-0.9.0"
+  },
+  {
+    "type": "archive",
+    "url": "https://erratique.ch/software/fpath/releases/fpath-0.7.3.tbz",
+    "md5": "740b530e8fed5b0adc5eee8463cfc2f",
+    "dest": "build/packages/fpath-0.7.3"
+  },
+  {
+    "type": "archive",
+    "url": "https://erratique.ch/software/logs/releases/logs-0.7.0.tbz",
+    "md5": "bf021ca13331775e33cf34ab60246f7",
+    "dest": "build/packages/logs-0.7.0"
+  },
+  {
+    "type": "archive",
+    "url": "https://erratique.ch/software/rresult/releases/rresult-0.7.0.tbz",
+    "sha512": "f1bb631c986996388e9686d49d5ae4d8aaf14034f6865c62a88fb58c48ce19ad2eb785327d69ca27c032f835984e0bd2efd969b415438628a31f3e84ec4551d3",
+    "dest": "build/packages/rresult-0.7.0"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml/camlp-streams/archive/v5.0.1.tar.gz",
+    "sha512": "2efa8dd4a636217c8d49bac1e4e7e5558fc2f45cfea66514140a59fd99dd08d61fb9f1e17804997ff648b71b13820a5d4a1eb70fed9d848aa2abd6e41f853c86",
+    "dest": "build/packages/camlp-streams-5.0.1"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml/dune/releases/download/3.11.1/dune-3.11.1.tbz",
+    "sha512": "c888153b204a16bcfed2636de776bbd5f9ca84484e716cc1e9ef3ba3c904e9dd15a2609ae943cddb6097912623ec54618c58386d6730ff742d746850400fb3cc",
+    "dest": "build/packages/dune-3.11.1"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/camlp5/camlp5-buildscripts/archive/refs/tags/0.03.tar.gz",
+    "sha512": "090032bc688685c88fcb36c3e3004577442376983c3f6082ebd92520ed02b67c2f26e5169243cd244e8a5c25696e4ff78a3f9a632b06c1e14aceab76f800445a",
+    "dest": "build/packages/camlp5-buildscripts-0.03"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/chetmurthy/not-ocamlfind/archive/refs/tags/0.12.tar.gz",
+    "sha512": "44b64691a86c475e8f143f45ee0660e9fd20e75ff2f19f3c86266486fbdebc5a2082ae0d0ed4a43f78cda802afdfd4b648c5a8f2d00e49deb7188dccff35978f",
+    "dest": "build/packages/not-ocamlfind-0.12"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/backtracking/ocamlgraph/releases/download/2.1.0/ocamlgraph-2.1.0.tbz",
+    "sha512": "8ee77bc1ef27bef41171b5718a73342dca8adc4b4592ff835038cd21e8c91152a0f9500b4034f664d1db7a09dab1efcc3be5d7c59260d6b33710b82a1fb2f196",
+    "dest": "build/packages/ocamlgraph-2.1.0"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml/stdlib-shims/releases/download/0.3.0/stdlib-shims-0.3.0.tbz",
+    "sha512": "1151d7edc8923516e9a36995a3f8938d323aaade759ad349ed15d6d8501db61ffbe63277e97c4d86149cf371306ac23df0f581ec7e02611f58335126e1870980",
+    "dest": "build/packages/stdlib-shims-0.3.0"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml/ocaml-re/releases/download/1.11.0/re-1.11.0.tbz",
+    "sha512": "3e3712cc1266ec1f27620f3508ea2ebba338f4083b07d8a69dccee1facfdc1971a6c39f9deea664d2a62fd7f2cfd2eae816ca4c274acfadaee992a3befc4b757",
+    "dest": "build/packages/re-1.11.0"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml/ocaml-re/releases/download/1.11.0/re-1.11.0.tbz",
+    "sha512": "3e3712cc1266ec1f27620f3508ea2ebba338f4083b07d8a69dccee1facfdc1971a6c39f9deea664d2a62fd7f2cfd2eae816ca4c274acfadaee992a3befc4b757",
+    "dest": "build/packages/seq-base"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml/ocaml-re/releases/download/1.11.0/re-1.11.0.tbz",
+    "sha512": "3e3712cc1266ec1f27620f3508ea2ebba338f4083b07d8a69dccee1facfdc1971a6c39f9deea664d2a62fd7f2cfd2eae816ca4c274acfadaee992a3befc4b757",
+    "dest": "build/packages/conf-libpcre-1"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml/ocaml-re/releases/download/1.11.0/re-1.11.0.tbz",
+    "sha512": "3e3712cc1266ec1f27620f3508ea2ebba338f4083b07d8a69dccee1facfdc1971a6c39f9deea664d2a62fd7f2cfd2eae816ca4c274acfadaee992a3befc4b757",
+    "dest": "build/packages/conf-zlib-1"
+  },
+  {
+    "type": "archive",
+    "url": "https://ygrek.org/p/release/ocaml-extlib/extlib-1.7.7.tar.gz",
+    "sha512": "4f3d6f5bc29c43254ad9f927213fca4afb8a74afbfbaca01ae7e540ea4509f2583aeedd91da8d5252843dd0998093e6e02801a4e95a70a04c6f7229b2b817bf3",
+    "dest": "build/packages/extlib-1.7.7-1"
+  },
+  {
+    "type": "archive",
+    "url": "https://ygrek.org/p/release/ocaml-extlib/extlib-1.7.7.tar.gz",
+    "sha512": "4f3d6f5bc29c43254ad9f927213fca4afb8a74afbfbaca01ae7e540ea4509f2583aeedd91da8d5252843dd0998093e6e02801a4e95a70a04c6f7229b2b817bf3",
+    "dest": "build/packages/base-bytes-base"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml-community/cppo/archive/v1.6.9.tar.gz",
+    "sha512": "26ff5a7b7f38c460661974b23ca190f0feae3a99f1974e0fd12ccf08745bd7d91b7bc168c70a5385b837bfff9530e0e4e41cf269f23dd8cf16ca658008244b44",
+    "dest": "build/packages/cppo-1.6.9"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/backtracking/ptmap/releases/download/2.0.5/ptmap-2.0.5.tbz",
+    "sha512": "4a3f20d189d905cb588de3148361495adc40d5892473bf9cd7e49bc98558de29feb51efefb5aab77cad892dd288ad8fa0348832c78cc21e66539768a5a9cab5b",
+    "dest": "build/packages/ptmap-2.0.5"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml-community/sedlex/archive/refs/tags/v3.2.tar.gz",
+    "sha512": "00e257d1b97e99d49028d2e38b20a05c6aa151c362991c37c17522bf58c19e273b762ea39dd9783ed9ecc60d11dadeabb0487e16b4af91536e45e7e18c86cfe9",
+    "dest": "build/packages/sedlex-3.2"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/c-cube/gen/archive/v1.1.tar.gz",
+    "sha512": "71a4b5c3666a7c11935398a78feea7383f61d2c549dfb96e324d40783ffa87b5ec492c5ec468803aabfb9b48e7d0ebaa30b24d2b974540afc7cca5feea3121c1",
+    "dest": "build/packages/gen-1.1"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml-ppx/ppxlib/releases/download/0.31.0/ppxlib-0.31.0.tbz",
+    "sha512": "63f2d327cfc5382476f812670d304aade91b3ea8f10420d6fc9e7078112368d99dbf43dfda9c2c2cf91341b71c37c45c1fe1d54fecde2348560f9d3c48571603",
+    "dest": "build/packages/ppxlib-0.31.0"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/janestreet/ocaml-compiler-libs/releases/download/v0.12.4/ocaml-compiler-libs-v0.12.4.tbz",
+    "sha512": "978dba8dfa61f98fa24fda7a9c26c2e837081f37d1685fe636dc19cfc3278a940cf01a10293504b185c406706bc1008bc54313d50f023bcdea6d5ac6c0788b35",
+    "dest": "build/packages/ocaml-compiler-libs-v0.12.4"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ocaml-ppx/ppx_derivers/archive/1.2.1.tar.gz",
+    "md5": "5dc2bf130c1db3c731fe0fffc5648b41",
+    "dest": "build/packages/ppx_derivers-1.2.1"
+  },
+  {
+    "type": "archive",
+    "url": "https://ocaml.janestreet.com/ocaml-core/v0.16/files/sexplib0-v0.16.0.tar.gz",
+    "sha256": "86dba26468194512f789f2fb709063515a9cb4e5c4461c021c239a369590701d",
+    "dest": "build/packages/sexplib0-v0.16.0"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/djs55/ocaml-sha/releases/download/v1.15.4/sha-1.15.4.tbz",
+    "sha512": "dbb31b523ba0bace023bc1b0558a8f572a0ec20fb3f19f783935be755cd161e09aba352eda2bcf7c4e5ab838c7f874cfbfaed9debf0813df25d9dbe7b9314fdf",
+    "dest": "build/packages/sha-1.15.4"
+  },
+  {
+    "type": "archive",
+    "url": "https://github.com/ncannasse/xml-light/releases/download/2.5/xml-light-2.5.tbz",
+    "sha512": "fec6b83f8342a37bdad0fc745032f1faa57b359365ab53c2376fb031613a83a3139766f2d646a9b9b8d67da25252f2499a03de4caaef7bd8738f9b183ef84b6e",
+    "dest": "build/packages/xml-light-2.5"
+  }
+]
