@@ -4,3 +4,6 @@
 [submodule "flatpak-opam-generator"]
 	path = flatpak-opam-generator
 	url = git@github.com:josecastillolema/flatpak-opam-generator.git
+[submodule "org.freedesktop.Sdk.Extension.ocaml"]
+	path = org.freedesktop.Sdk.Extension.ocaml
+	url = git@github.com:josecastillolema/org.freedesktop.Sdk.Extension.ocaml.git
