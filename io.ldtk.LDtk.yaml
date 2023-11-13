@@ -5,6 +5,7 @@ sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
 base-version: '22.08'
 sdk-extensions:
+  - org.freedesktop.Sdk.Extension.ocaml
   - org.freedesktop.Sdk.Extension.node18
 command: run.sh
 separate-locales: false
@@ -15,10 +16,22 @@ finish-args:
   - --socket=pipewire
   - --share=network
 build-options:
-  append-path: /usr/lib/sdk/node18/bin
+  append-path: 
+    # OCaml
+  - /usr/lib/sdk/ocaml/bin:/usr/lib/sdk/ocaml/switch/_opam/bin
+    # NPM
+  - /usr/lib/sdk/node18/bin
   env:
+    # OCaml
+    CAML_LD_LIBRARY_PATH: /usr/lib/sdk/ocaml/switch/_opam/lib/stublibs:/usr/lib/sdk/ocaml/switch/_opam/lib/ocaml/stublibs:/usr/lib/sdk/ocaml/switch/_opam/lib/ocaml
+    OCAML_TOPLEVEL_PATH: /usr/lib/sdk/ocaml/switch/_opam/lib/toplevel
+    OPAMROOT: /usr/lib/sdk/ocaml
+    OPAMSWITCH: /usr/lib/sdk/ocaml/switch
+    OPAM_SWITCH_PREFIX: /usr/lib/sdk/ocaml/switch/_opam
+    # NPM
     NPM_CONFIG_LOGLEVEL: info
 modules:
+  - name: haxe
   - name: ldtk
     buildsystem: simple
     build-options:
