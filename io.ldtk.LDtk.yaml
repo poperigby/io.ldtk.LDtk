@@ -6,7 +6,7 @@ base: org.electronjs.Electron2.BaseApp
 base-version: '23.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.ocaml
-  - org.freedesktop.Sdk.Extension.node18
+  # - org.freedesktop.Sdk.Extension.node18
 command: run.sh
 separate-locales: false
 finish-args:
@@ -36,21 +36,11 @@ modules:
       - type: git
         url: https://github.com/madler/zlib.git
         branch: v1.2.11
-    buildsystem: simple
-    build-commands:
-      - ./configure --prefix=/app
-      - make
-      - make install
   - name: pcre2
     sources:
       - type: archive
         url: https://github.com/PCRE2Project/pcre2/archive/refs/tags/pcre2-10.42.tar.gz
         sha256: a8e52a9bd1bca8f51c5c24823adc2a99acb12288e289a6507090c1a4a4815010
-    buildsystem: simple
-    build-commands:
-      - ./configure --prefix=/app
-      - make
-      - make install
   - name: haxe
     buildsystem: simple
     sources:
