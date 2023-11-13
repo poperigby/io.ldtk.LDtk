@@ -20,7 +20,7 @@
   {
     "type": "archive",
     "url": "https://erratique.ch/software/astring/releases/astring-0.8.5.tbz",
-    "md5": "148907c24157d1df43bec89b58b3ec8",
+    "md5": "e148907c24157d1df43bec89b58b3ec8",
     "dest": "build/packages/astring-0.8.5"
   },
   {
@@ -50,13 +50,13 @@
   {
     "type": "archive",
     "url": "https://erratique.ch/software/fpath/releases/fpath-0.7.3.tbz",
-    "md5": "740b530e8fed5b0adc5eee8463cfc2f",
+    "md5": "0740b530e8fed5b0adc5eee8463cfc2f",
     "dest": "build/packages/fpath-0.7.3"
   },
   {
     "type": "archive",
     "url": "https://erratique.ch/software/logs/releases/logs-0.7.0.tbz",
-    "md5": "bf021ca13331775e33cf34ab60246f7",
+    "md5": "2bf021ca13331775e33cf34ab60246f7",
     "dest": "build/packages/logs-0.7.0"
   },
   {

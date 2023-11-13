@@ -41,14 +41,13 @@ modules:
       - ./configure --prefix=/app
       - make
       - make install
-  - name: pcre
+  - name: pcre2
     sources:
-      - type: git
-        url: https://github.com/PhilipHazel/pcre.git
-        branch: master
+      - type: archive
+        url: https://github.com/PCRE2Project/pcre2/archive/refs/tags/pcre2-10.42.tar.gz
+        sha256: a8e52a9bd1bca8f51c5c24823adc2a99acb12288e289a6507090c1a4a4815010
     buildsystem: simple
     build-commands:
-      - autoreconf -f -i
       - ./configure --prefix=/app
       - make
       - make install
