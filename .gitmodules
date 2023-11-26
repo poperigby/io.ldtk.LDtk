@@ -7,3 +7,6 @@
 [submodule "org.freedesktop.Sdk.Extension.ocaml"]
 	path = org.freedesktop.Sdk.Extension.ocaml
 	url = git@github.com:josecastillolema/org.freedesktop.Sdk.Extension.ocaml.git
+[submodule "shared-modules"]
+	path = shared-modules
+	url = https://github.com/flathub/shared-modules.git
