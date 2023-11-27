@@ -19,14 +19,6 @@ build-options:
     OPAM_SWITCH_PREFIX: /app/share/runtime/ocaml/switch/_opam
 modules:
   - shared-modules/gtk2/gtk2.json
-  - name: apache
-    sources:
-      - type: archive
-        url: https://dlcdn.apache.org/httpd/httpd-2.4.58.tar.gz
-        sha256: 503a7da4a4a27fd496037998b17078dc9fe004db32c657c96cce8356b8aa2eb6
-      - type: archive
-        url: https://dlcdn.apache.org//apr/apr-1.7.4.tar.gz
-        sha256: a4137dd82a185076fa50ba54232d920a17c6469c30b0876569e1c2a05ff311d9
   - name: mariadb
     buildsystem: cmake-ninja
     sources:
@@ -43,6 +35,8 @@ modules:
         sha256: 3d0d3cdbe077403d3106bb40f0cbb563413d6efdbb2a7e1cd6886595dec48fc2
   - name: neko
     buildsystem: cmake
+    config-opts:
+      - -DWITH_APACHE=OFF
     sources:
       - type: archive
         url: https://github.com/HaxeFoundation/neko/archive/refs/tags/v2-3-0.tar.gz
