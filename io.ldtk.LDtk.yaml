@@ -19,6 +19,16 @@ build-options:
     OPAM_SWITCH_PREFIX: /app/share/runtime/ocaml/switch/_opam
 modules:
   - shared-modules/gtk2/gtk2.json
+  - name: pcre2
+    sources:
+      - type: archive
+        url: https://github.com/PCRE2Project/pcre2/archive/refs/tags/pcre2-10.42.tar.gz
+        sha256: a8e52a9bd1bca8f51c5c24823adc2a99acb12288e289a6507090c1a4a4815010
+  - name: zlib
+    sources:
+      - type: git
+        url: https://github.com/madler/zlib.git
+        branch: v1.2.11
   - name: mariadb
     buildsystem: cmake-ninja
     sources:
@@ -33,6 +43,14 @@ modules:
       - type: archive
         url: https://www.hboehm.info/gc/gc_source/gc-8.2.4.tar.gz
         sha256: 3d0d3cdbe077403d3106bb40f0cbb563413d6efdbb2a7e1cd6886595dec48fc2
+  - name: mbedtls
+    buildsystem: cmake
+    build-options:
+      cflags: -fPIC
+    sources:
+      - type: archive
+        url: https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/v2.28.1.tar.gz
+        sha256: 6797a7b6483ef589deeab8d33d401ed235d7be25eeecda1be8ddfed406d40ff4
   - name: neko
     buildsystem: cmake
     config-opts:
@@ -41,16 +59,7 @@ modules:
       - type: archive
         url: https://github.com/HaxeFoundation/neko/archive/refs/tags/v2-3-0.tar.gz
         sha256: 850e7e317bdaf24ed652efeff89c1cb21380ca19f20e68a296c84f6bad4ee995
-  - name: pcre2
-    sources:
-      - type: archive
-        url: https://github.com/PCRE2Project/pcre2/archive/refs/tags/pcre2-10.42.tar.gz
-        sha256: a8e52a9bd1bca8f51c5c24823adc2a99acb12288e289a6507090c1a4a4815010
-  - name: zlib
-    sources:
-      - type: git
-        url: https://github.com/madler/zlib.git
-        branch: v1.2.11
+
   # - name: switch
   #   buildsystem: simple
   #   sources:
