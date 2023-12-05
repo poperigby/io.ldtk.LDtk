@@ -1,14 +1,6 @@
 [
   {
     "type": "file",
-    "url": "https://github.com/HaxeFoundation/haxe-debian/archive/upstream/4.1.1.tar.gz",
-    "name": "haxe.4.1.1",
-    "md5": "35807bf2200bd80ab45132bf2bbfb40b",
-    "dest": "cache/md5/35",
-    "dest-filename": "35807bf2200bd80ab45132bf2bbfb40b"
-  },
-  {
-    "type": "file",
     "url": "https://github.com/camlp5/camlp5/archive/refs/tags/8.02.01.tar.gz",
     "name": "camlp5.8.02.01",
     "sha512": "b600cb4891f825bce5af72c1e26e6b09e51f1e4bd4eea5333af9aaecde0857e949428c1b30c64bae030042691e97bdde6daf1d95fe1927ea478b7f5dea872ee5",
