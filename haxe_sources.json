@@ -1,6 +1,22 @@
 [
   {
     "type": "file",
+    "url": "https://github.com/ocaml/camlp-streams/archive/v5.0.1.tar.gz",
+    "name": "camlp-streams.5.0.1",
+    "md5": "afc874b25f7a1f13e8f5cfc1182b51a7",
+    "dest": "cache/md5/af",
+    "dest-filename": "afc874b25f7a1f13e8f5cfc1182b51a7"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/dune/releases/download/3.11.1/dune-3.11.1.tbz",
+    "name": "dune.3.11.1",
+    "sha256": "866f2307adadaf7604f3bf9d98bb4098792baa046953a6726c96c40fc5ed3f71",
+    "dest": "cache/sha256/86",
+    "dest-filename": "866f2307adadaf7604f3bf9d98bb4098792baa046953a6726c96c40fc5ed3f71"
+  },
+  {
+    "type": "file",
     "url": "https://github.com/camlp5/camlp5/archive/refs/tags/8.02.01.tar.gz",
     "name": "camlp5.8.02.01",
     "sha512": "b600cb4891f825bce5af72c1e26e6b09e51f1e4bd4eea5333af9aaecde0857e949428c1b30c64bae030042691e97bdde6daf1d95fe1927ea478b7f5dea872ee5",
@@ -81,22 +97,6 @@
   },
   {
     "type": "file",
-    "url": "https://github.com/ocaml/camlp-streams/archive/v5.0.1.tar.gz",
-    "name": "camlp-streams.5.0.1",
-    "md5": "afc874b25f7a1f13e8f5cfc1182b51a7",
-    "dest": "cache/md5/af",
-    "dest-filename": "afc874b25f7a1f13e8f5cfc1182b51a7"
-  },
-  {
-    "type": "file",
-    "url": "https://github.com/ocaml/dune/releases/download/3.11.1/dune-3.11.1.tbz",
-    "name": "dune.3.11.1",
-    "sha256": "866f2307adadaf7604f3bf9d98bb4098792baa046953a6726c96c40fc5ed3f71",
-    "dest": "cache/sha256/86",
-    "dest-filename": "866f2307adadaf7604f3bf9d98bb4098792baa046953a6726c96c40fc5ed3f71"
-  },
-  {
-    "type": "file",
     "url": "https://github.com/camlp5/camlp5-buildscripts/archive/refs/tags/0.03.tar.gz",
     "name": "camlp5-buildscripts.0.03",
     "sha512": "090032bc688685c88fcb36c3e3004577442376983c3f6082ebd92520ed02b67c2f26e5169243cd244e8a5c25696e4ff78a3f9a632b06c1e14aceab76f800445a",
@@ -137,11 +137,11 @@
   },
   {
     "type": "file",
-    "url": "https://ygrek.org/p/release/ocaml-extlib/extlib-1.7.7.tar.gz",
-    "name": "extlib.1.7.7-1",
-    "md5": "2c620993aecd4b31b3a362b21b55dd94",
-    "dest": "cache/md5/2c",
-    "dest-filename": "2c620993aecd4b31b3a362b21b55dd94"
+    "url": "https://github.com/ygrek/ocaml-extlib/releases/download/1.7.9/extlib-1.7.9.tar.gz",
+    "name": "extlib.1.7.9",
+    "md5": "f7ca7f1c82e15a99603b88f730fd7b8a",
+    "dest": "cache/md5/f7",
+    "dest-filename": "f7ca7f1c82e15a99603b88f730fd7b8a"
   },
   {
     "type": "file",
@@ -150,6 +150,54 @@
     "md5": "d23ffe85ac7dc8f0afd1ddf622770d09",
     "dest": "cache/md5/d2",
     "dest-filename": "d23ffe85ac7dc8f0afd1ddf622770d09"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/aantron/luv/releases/download/0.5.12/luv-0.5.12.tar.gz",
+    "name": "luv.0.5.12",
+    "md5": "57b2063e489cbbcfea3a238ced0dd297",
+    "dest": "cache/md5/57",
+    "dest-filename": "57b2063e489cbbcfea3a238ced0dd297"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/yallop/ocaml-ctypes/archive/refs/tags/0.21.1.tar.gz",
+    "name": "ctypes.0.21.1",
+    "md5": "8b201d932741c5096854e5eb39139b90",
+    "dest": "cache/md5/8b",
+    "dest-filename": "8b201d932741c5096854e5eb39139b90"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/mirage/bigarray-compat/releases/download/v1.1.0/bigarray-compat-1.1.0.tbz",
+    "name": "bigarray-compat.1.1.0",
+    "sha256": "434469a48d5c84e80d621b13d95eb067f8138c1650a1fd5ae6009a19b93718d5",
+    "dest": "cache/sha256/43",
+    "dest-filename": "434469a48d5c84e80d621b13d95eb067f8138c1650a1fd5ae6009a19b93718d5"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/dune/releases/download/3.11.1/dune-3.11.1.tbz",
+    "name": "dune-configurator.3.11.1",
+    "sha256": "866f2307adadaf7604f3bf9d98bb4098792baa046953a6726c96c40fc5ed3f71",
+    "dest": "cache/sha256/86",
+    "dest-filename": "866f2307adadaf7604f3bf9d98bb4098792baa046953a6726c96c40fc5ed3f71"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-dune/csexp/releases/download/1.5.2/csexp-1.5.2.tbz",
+    "name": "csexp.1.5.2",
+    "sha256": "1a14dd04bb4379a41990248550628c77913a9c07f3c35c1370b6960e697787ff",
+    "dest": "cache/sha256/1a",
+    "dest-filename": "1a14dd04bb4379a41990248550628c77913a9c07f3c35c1370b6960e697787ff"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/yallop/ocaml-integers/archive/0.7.0.tar.gz",
+    "name": "integers.0.7.0",
+    "md5": "201cf24143d7cb9a3921d572b6e6c42c",
+    "dest": "cache/md5/20",
+    "dest-filename": "201cf24143d7cb9a3921d572b6e6c42c"
   },
   {
     "type": "file",

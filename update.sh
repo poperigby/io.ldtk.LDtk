@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 echo -e "\033[32mGenerating haxe_sources.json file...\033[0m"
+opam pin add -k git -n haxe https://github.com/HaxeFoundation/haxe#4.3.3
 opam tree --json=/tmp/haxe_deps.json haxe &> /dev/null
 ./flatpak-opam-generator/flatpak-opam-generator.py /tmp/haxe_deps.json > haxe_sources.json
 
