@@ -110,6 +110,6 @@ modules:
     build-commands:
       - make
     sources:
-      - type: archive
-        url: https://github.com/HaxeFoundation/haxe/archive/refs/tags/4.3.3.tar.gz
-        sha256: 344989b0bd73257577fca7492aadc3e7627225ca1c1e03eb09b256e8098e4112
+      - type: git
+        url: https://github.com/HaxeFoundation/haxe.git
+        tag: 4.3.3
